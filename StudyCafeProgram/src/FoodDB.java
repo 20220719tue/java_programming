@@ -43,7 +43,7 @@ public class FoodDB {
 	}
 	
 	
-	//음식 불러오기
+	// 음식 불러오기
 	public void foodRead() {
 		Connection con=makeConnection();
 		PreparedStatement pstmt=null;
